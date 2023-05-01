@@ -1,0 +1,131 @@
+/* ======== AI 면접 질문 생성기 ======== */
+body {
+    font-family: 'nanumsquare';
+  }
+
+  .main-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+  }
+  
+  .title {    
+    text-align: center;
+    color: rgb(116, 176, 156);
+    font-size: 30px;  
+    margin-top: 30px;
+  }
+
+  .job-container {
+    background-color: rgb(116, 176, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 50px;    
+    /* width: 750px; */
+  }
+  
+  .job {
+    color: white;
+    justify-content: left;
+    /* margin: 30px 500px; */
+    /* height: 50px; */
+    /* text-align: left; */
+    /* padding-left: 30px; */
+    /* font-size: 15px; */
+    /* border-radius: 20px; */
+  }
+  
+  .select-job {
+    /* background-color: white;
+    color: black;
+    height: 20px;
+    /* float: right; */
+    /* padding-right: 30px; */
+    /* font-size: 15px;
+    width: 45px; */   
+  }
+  
+  .essay-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 25px;
+    width: 750 ;
+    border: 2px solid gray;
+    /* min-height: 100vh; */
+  }
+
+  .essay-info {
+    background-color: rgb(240, 241, 242);    
+    height: 100px;
+    width: 750px;      
+    /* padding-left: 80px; */
+    /* padding-top: 25px;   */
+  }
+
+  .essay-wrapper {
+    /* 유튜부 보고 만들기 스크롤 박스 */
+    /* width: 750px;  */    
+  }
+
+  .essay-wrapper textarea {
+    width: 750px;
+    height: 100px;    
+    outline: none;
+    resize: none;    
+    font-size: 20px;
+  }
+
+  /* textarea:is(:focus, :valid){
+    border-width: 2px;
+    padding: 1px;
+  } */
+
+  .essay-btns {
+    display: flex;
+    margin-top: 25px;
+  }
+
+    .reset-btn {
+    background-color: rgb(240, 241, 242);  
+    width: 375px;    
+    opacity: 0.7;
+    height: 35px;    
+    text-align: center;
+  }
+
+  .create-btn {
+    background-color: rgb(116, 176, 156);
+    color: white; 
+    width: 375px;    
+    height: 35px;    
+    text-align: center;
+  }
+
+  .prediction-container {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;      
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: rgb(240, 241, 242);
+    /* width: 750px; */
+  }
+
+  .prediction-question {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* width: 750px; */
+    /* align-items: center; */
+    /* border-top-right-radius: 20px; */
+    /* border-top-left-radius: 20px; */
+  }
+
+  /* ========면접질문 생성기 끝 ========*/
