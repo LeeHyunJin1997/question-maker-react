@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import './main.css';
 
 function App() {
-     
   return (
     <div className="App">  
       <div className="main-screen">
