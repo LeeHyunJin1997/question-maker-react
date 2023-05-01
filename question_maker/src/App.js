@@ -1,10 +1,10 @@
-import './App.css';
-import './main.css';
+import Home from './home/Home';
 
 function App() {
   return (
-    <div className="App">  
-      <div className="main-screen">
+    <div className="App">
+      <Home></Home>
+      {/* <div className="main-screen">
         <span className='title'>AI 면접 생성 질문기</span>  
         <div className="job-container">    
            <div className="job">
@@ -23,7 +23,7 @@ function App() {
             </div>
         </div>
         <div className="prediction-container">예상 질문</div>          
-      </div>
+      </div> */}
     </div>
   );
 }
