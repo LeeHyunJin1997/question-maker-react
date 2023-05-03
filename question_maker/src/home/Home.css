@@ -54,42 +54,39 @@
 
 .essay-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;    
-  margin-top: 25px;
-  border: 2px solid gray;
+  flex-direction: column; 
+  margin-top: 40px;
 }
 
-.essay-info {
-  background-color: rgb(240, 241, 242);    
-  height: 100px;
+.essay-container .essay-info {
+  height: 113px;
+  width: 100%;
+  background-color: #f0f1f2;
+  border-radius: 20px 20px 0 0;
+  padding: 22px;
+  font-size: 18px;
+  color: #777777;
 }
 
-.essay-wrapper textarea {
-  height: 100px;    
+.essay-container textarea {
+  height: 400px;
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  border-left: 5px solid #f0f1f2;
+  resize: none;
+  overflow-y: scroll;
   outline: none;
-  resize: none;    
-  font-size: 20px;
+  font-size: 16px;
 }
 
-.essay-btns {
+.button-wrapper {
   display: flex;
-  margin-top: 25px;
 }
 
-.reset-btn {
-  background-color: rgb(240, 241, 242);
-  opacity: 0.7;
-  height: 35px;    
-  text-align: center;
-}
-
-.create-btn {
-  background-color: rgb(116, 176, 156);
-  color: white; 
-  height: 35px;    
-  text-align: center;
+Button {
+  width: 50%;
+  height: 60px;
 }
 
 /* Response */
