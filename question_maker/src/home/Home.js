@@ -3,7 +3,7 @@ import HomeJob from './HomeJob';
 import HomeEssay from './HomeEssay';
 import HomeQuestion from './HomeQuestion'
 
-import styles from './Home.css';
+import './Home.css';
 
 import Container from '@mui/material/Container';
 
