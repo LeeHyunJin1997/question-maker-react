@@ -1,3 +1,5 @@
+/* Header */
+
 .title {    
   text-align: center;
   color: rgb(116, 176, 156);
@@ -5,19 +7,50 @@
   margin-top: 30px;
 }
 
+/* Job */
+
 .job {
   background-color: #74AA9C;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
-  height: 63px;
+  height: 70px;
   border-radius: 20px;
-  padding-left: 22px;
-  padding-right: 22px;
-  font-size: 20px;
+  padding: 0 22px;
+  font-size: 18px;
   color: #FFFFFF;
 }
+
+.job select {
+  height: 40px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 15px;
+  padding: 0 10px 0 20px;
+}
+
+.addition {
+  margin-top: 8px;
+  text-align: end;
+}
+
+.addition a:link {
+  text-decoration: none;
+  color: #74AA9C;
+}
+
+.addition a:visited {
+  text-decoration: none;
+  color: #777777;
+}
+
+.addition a:hover {
+  text-decoration: underline;
+  color: #74AA9C;
+}
+
+/* Essay */
 
 .essay-container {
   display: flex;
@@ -45,7 +78,7 @@
   margin-top: 25px;
 }
 
-  .reset-btn {
+.reset-btn {
   background-color: rgb(240, 241, 242);
   opacity: 0.7;
   height: 35px;    
@@ -58,6 +91,8 @@
   height: 35px;    
   text-align: center;
 }
+
+/* Response */
 
 .prediction-container {
   height: 30px;
