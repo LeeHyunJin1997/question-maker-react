@@ -7,6 +7,10 @@ function HomeJob() {
     setJob(event.target.value);
   }
 
+  function handleClick(event) {
+    alert('아직 추가되지 않은 기능입니다.');
+  }
+
   return (
     <div>
       <div className="job">
@@ -41,7 +45,7 @@ function HomeJob() {
         </form>
       </div>
       <div className="addition">
-        <div>내 직무가 없다면?</div>
+        <a href="#" onClick={handleClick}>내 직무가 없다면?</a>
       </div>
     </div>
   )
