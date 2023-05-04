@@ -1,7 +1,7 @@
 import HomeHeader from './HomeHeader';
 import HomeJob from './HomeJob';
 import HomeEssay from './HomeEssay';
-import HomeQuestion from './HomeQuestion'
+import HomeResponse from './HomeResponse'
 
 import './Home.css';
 
@@ -13,7 +13,7 @@ function Home() {
       <HomeHeader></HomeHeader>
       <HomeJob></HomeJob>
       <HomeEssay></HomeEssay>
-      <HomeQuestion></HomeQuestion>
+      <HomeResponse></HomeResponse>
     </Container>
   )
 }

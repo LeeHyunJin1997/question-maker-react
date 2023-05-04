@@ -17,13 +17,12 @@ function HomeEssay() {
   });
 
   return (
-    <div className="essay-container">
-      <div className="essay-info">자기소개서 문항</div>
+    <div className="essay">
+      <div className="essay-header">자기소개서 문항</div>
       <textarea></textarea>
       <div className="button-wrapper">
         <ThemeProvider theme={theme}>
           <Button
-            className="reset"
             variant="contained"
             color="neutral"
             disableElevation
@@ -32,7 +31,6 @@ function HomeEssay() {
             초기화
           </Button>
           <Button
-            className="create"
             variant="contained"
             disableElevation
             sx={{ fontSize: 18, borderRadius: '0 0 20px 0' }}
