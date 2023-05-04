@@ -2,9 +2,8 @@
 
 .title {    
   text-align: center;
-  color: rgb(116, 176, 156);
-  font-size: 30px;  
-  margin-top: 30px;
+  font-size: 40px;
+  margin-top: 150px;
 }
 
 /* Job */
@@ -14,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 150px;
   height: 70px;
   border-radius: 20px;
   padding: 0 22px;
