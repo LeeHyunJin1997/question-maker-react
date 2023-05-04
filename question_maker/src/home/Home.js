@@ -1,18 +1,20 @@
 import HomeHeader from './HomeHeader';
 import HomeJob from './HomeJob';
 import HomeEssay from './HomeEssay';
-import HomeQuestion from './HomeQuestion'
+import HomeResponse from './HomeResponse'
 
-import styles from './Home.css';
+import './Home.css';
+
+import Container from '@mui/material/Container';
 
 function Home() {
   return (
-    <div>
+    <Container maxWidth="md">
       <HomeHeader></HomeHeader>
       <HomeJob></HomeJob>
       <HomeEssay></HomeEssay>
-      <HomeQuestion></HomeQuestion>
-    </div>
+      <HomeResponse></HomeResponse>
+    </Container>
   )
 }
 

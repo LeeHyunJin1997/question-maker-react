@@ -1,13 +1,43 @@
+import { Button } from '@mui/material';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+
 function HomeEssay() {
+
+  const theme = createTheme({
+    palette: {
+      primary: {
+        main: '#74AA9C',
+        contrastText: '#ffffff',
+      },
+      neutral: {
+        main: '#f0f1f2',
+        contrastText: '#777777',
+      }
+    },
+  });
+
   return (
-    <div className="essay-container">
-      <div className="essay-info">자기소개서 문항</div>
-      <div className="essay-wrapper">
-        <textarea placeholder="Type!"></textarea>
-      </div>
-      <div className="essay-btns">
-        <div className="reset-btn">초기화</div>
-        <div className="create-btn">생성하기</div>
+    <div className="essay">
+      <div className="essay-header">자기소개서 문항</div>
+      <textarea></textarea>
+      <div className="button-wrapper">
+        <ThemeProvider theme={theme}>
+          <Button
+            variant="contained"
+            color="neutral"
+            disableElevation
+            sx={{ fontSize: 18, borderRadius: '0 0 0 20px' }}
+          >
+            초기화
+          </Button>
+          <Button
+            variant="contained"
+            disableElevation
+            sx={{ fontSize: 18, borderRadius: '0 0 20px 0' }}
+          >
+            생성하기
+          </Button>
+        </ThemeProvider>
       </div>
     </div>
   )
