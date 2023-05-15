@@ -17,11 +17,16 @@ function HomeEssay(props) {
 
   function handleReset(event) {
     event.preventDefault();
-    props.resetEssay()
+    props.resetEssay();
   }
 
   function handleInput(event) {
     props.changeEssay(event.target.value);
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    props.submitEssay();
   }
 
   return (
@@ -40,6 +45,7 @@ function HomeEssay(props) {
             초기화
           </Button>
           <Button
+            onClick={handleSubmit}
             variant="contained"
             disableElevation
             sx={{ fontSize: 18, borderRadius: '0 0 20px 0' }}
