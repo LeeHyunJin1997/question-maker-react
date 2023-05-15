@@ -1,8 +1,7 @@
 import { Button } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-function HomeEssay() {
-
+function HomeEssay(props) {
   const theme = createTheme({
     palette: {
       primary: {
@@ -16,13 +15,28 @@ function HomeEssay() {
     },
   });
 
+  function handleReset(event) {
+    event.preventDefault();
+    props.resetEssay();
+  }
+
+  function handleInput(event) {
+    props.changeEssay(event.target.value);
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    props.submitEssay();
+  }
+
   return (
     <div className="essay">
       <div className="essay-header">자기소개서 문항</div>
-      <textarea></textarea>
+      <textarea value={props.essay} onChange={handleInput}></textarea>
       <div className="button-wrapper">
         <ThemeProvider theme={theme}>
           <Button
+            onClick={handleReset}
             variant="contained"
             color="neutral"
             disableElevation
@@ -31,6 +45,7 @@ function HomeEssay() {
             초기화
           </Button>
           <Button
+            onClick={handleSubmit}
             variant="contained"
             disableElevation
             sx={{ fontSize: 18, borderRadius: '0 0 20px 0' }}
