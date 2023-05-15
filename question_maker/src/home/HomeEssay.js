@@ -1,8 +1,8 @@
 import { Button } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { useState } from 'react';
 
 function HomeEssay() {
-
   const theme = createTheme({
     palette: {
       primary: {
@@ -16,13 +16,25 @@ function HomeEssay() {
     },
   });
 
+  const [essay, setEssay] = useState("");
+
+  function eraseEssay(event) {
+    event.preventDefault();
+    setEssay("");
+  }
+
+  function handleInput(event) {
+    setEssay(event.target.value);
+  }
+
   return (
     <div className="essay">
       <div className="essay-header">자기소개서 문항</div>
-      <textarea></textarea>
+      <textarea value={essay} onChange={handleInput}></textarea>
       <div className="button-wrapper">
         <ThemeProvider theme={theme}>
           <Button
+            onClick={eraseEssay}
             variant="contained"
             color="neutral"
             disableElevation
