@@ -1,13 +1,9 @@
-import { useState } from 'react';
-
-function HomeJob() {
-  let [job, setJob] = useState(''); 
-
+function HomeJob(props) {
   function handleChange(event) {
-    setJob(event.target.value);
+    props.changeJob(event.target.value);
   }
 
-  function handleClick(event) {
+  function handleClick() {
     alert('아직 추가되지 않은 기능입니다.');
   }
 
@@ -17,7 +13,7 @@ function HomeJob() {
         <div>직무를 선택해주세요</div>
         <form>
           <select
-            value={job}
+            value={props.job}
             onChange={handleChange}
           >
             <option value={''}>선택 안함</option>

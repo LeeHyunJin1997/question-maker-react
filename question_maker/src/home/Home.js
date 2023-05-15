@@ -10,7 +10,12 @@ import './Home.css';
 import Container from '@mui/material/Container';
 
 function Home() {
+  const [job, setJob] = useState("");
   const [essay, setEssay] = useState("");
+
+  function changeJob(text) {
+    setJob(text);
+  }
 
   function resetEssay() {
     setEssay("");
@@ -23,7 +28,7 @@ function Home() {
   return (
     <Container maxWidth="md">
       <HomeHeader></HomeHeader>
-      <HomeJob></HomeJob>
+      <HomeJob job={job} changeJob={changeJob}></HomeJob>
       <HomeEssay essay={essay} resetEssay={resetEssay} changeEssay={changeEssay}></HomeEssay>
       <HomeResponse></HomeResponse>
     </Container>
