@@ -21,7 +21,15 @@ function HomeEssay(props) {
   }
 
   function handleInput(event) {
-    props.changeEssay(event.target.value);
+    const input = event.target.value
+
+    if (input.length > 2000) {
+      props.changeEssay(input.substring(0, 2000))
+      alert('최대 글자수를 초과했습니다')
+    }
+    else {
+      props.changeEssay(input)
+    };
   }
 
   function handleSubmit(event) {
@@ -31,7 +39,13 @@ function HomeEssay(props) {
 
   return (
     <div className="essay">
-      <div className="essay-header">자기소개서를 입력해주세요</div>
+      <div className="essay-header">
+        자기소개서를 입력해주세요
+        <div className="essay-notice">
+          * 최대 2000자까지 작성할 수 있습니다
+        </div>
+      </div>
+      <div className="word-limit">( {props.essay.length} / 2000 )</div>
       <textarea value={props.essay} onChange={handleInput}></textarea>
       <div className="button-wrapper">
         <ThemeProvider theme={theme}>
