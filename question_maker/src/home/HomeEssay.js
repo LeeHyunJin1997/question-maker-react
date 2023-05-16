@@ -31,7 +31,7 @@ function HomeEssay(props) {
 
   return (
     <div className="essay">
-      <div className="essay-header">자기소개서 문항</div>
+      <div className="essay-header">자기소개서를 입력해주세요</div>
       <textarea value={props.essay} onChange={handleInput}></textarea>
       <div className="button-wrapper">
         <ThemeProvider theme={theme}>
@@ -40,7 +40,7 @@ function HomeEssay(props) {
             variant="contained"
             color="neutral"
             disableElevation
-            sx={{ fontSize: 18, borderRadius: '0 0 0 20px' }}
+            sx={{ fontSize: 20, borderRadius: '0 0 0 20px' }}
           >
             초기화
           </Button>
@@ -48,7 +48,7 @@ function HomeEssay(props) {
             onClick={handleSubmit}
             variant="contained"
             disableElevation
-            sx={{ fontSize: 18, borderRadius: '0 0 20px 0' }}
+            sx={{ fontSize: 20, borderRadius: '0 0 20px 0' }}
           >
             생성하기
           </Button>

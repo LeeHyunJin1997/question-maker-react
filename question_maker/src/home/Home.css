@@ -20,7 +20,7 @@
   height: 70px;
   border-radius: 20px;
   padding: 0 22px;
-  font-size: 18px;
+  font-size: 20px;
   color: #FFFFFF;
 }
 
@@ -30,6 +30,7 @@
   border: 0;
   border-radius: 15px;
   padding: 0 10px 0 20px;
+  font-size: 16px;
 }
 
 .addition {
@@ -66,7 +67,7 @@
   background-color: #f0f1f2;
   border-radius: 20px 20px 0 0;
   padding: 22px;
-  font-size: 18px;
+  font-size: 20px;
   color: #777777;
 }
 
@@ -79,7 +80,9 @@
   resize: none;
   overflow-y: scroll;
   outline: none;
-  font-size: 16px;
+  font-size: 18px;
+  font-family: 'Pretendard';
+  line-height: 27px;
 }
 
 .button-wrapper {
@@ -103,7 +106,7 @@ Button {
   background-color: #f0f1f2;
   border-radius: 20px 20px 0 0;
   padding: 22px;
-  font-size: 18px;
+  font-size: 20px;
   color: #777777;
 }
 
