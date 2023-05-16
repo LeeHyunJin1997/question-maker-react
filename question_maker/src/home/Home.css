@@ -112,4 +112,5 @@ Button {
   border-top: 0;
   border-radius: 0 0 20px 20px;
   white-space: pre-line;
+  line-height: 60px;
 }
