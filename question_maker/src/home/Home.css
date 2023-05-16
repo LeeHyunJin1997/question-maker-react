@@ -56,18 +56,34 @@
 /* Essay */
 
 .essay {
+  position: relative;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   margin-top: 40px;
 }
 
 .essay-header {
-  height: 113px;
+  height: 90px;
   width: 100%;
   background-color: #f0f1f2;
   border-radius: 20px 20px 0 0;
   padding: 22px;
   font-size: 20px;
+  color: #777777;
+}
+
+.essay-notice {
+  margin: 10px 0 0 0;
+  text-align: right;
+  font-size: 16px;
+  color: #74AA9C;
+}
+
+.word-limit {
+  position: absolute;
+  z-index: 0;
+  top: 450px;
+  right: 30px;
   color: #777777;
 }
 
@@ -77,8 +93,8 @@
   padding: 15px;
   border: 0;
   border-left: 5px solid #f0f1f2;
+  border-right: 5px solid #f0f1f2;
   resize: none;
-  overflow-y: scroll;
   outline: none;
   font-size: 18px;
   font-family: 'Pretendard';
