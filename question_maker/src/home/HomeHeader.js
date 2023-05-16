@@ -1,6 +1,8 @@
 function HomeHeader() {
   return (
-    <div className='header'>AI 면접 질문 생성기</div>
+    <div className='header'>
+      <img src="logo.png" alt="이지봇로고"></img>
+    </div>
   )
 }
 
