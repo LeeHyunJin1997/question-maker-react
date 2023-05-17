@@ -41,7 +41,9 @@ function Home() {
       setQuestion(response.data)
       setIsLoading(false)
     }).catch((error) => {
+      setIsLoading(false)
       console.log(error)
+      alert("오류가 발생했습니다")
     })
   }
 
