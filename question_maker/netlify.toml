@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://ez-bot.me"
+  to = "https://iroba.me"
+  status = 301
+  force = true
