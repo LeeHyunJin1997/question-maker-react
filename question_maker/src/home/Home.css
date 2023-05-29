@@ -2,11 +2,32 @@
 
 .header {
   padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text h1 {
+  margin-bottom: 10px;
+  line-height: 43px;
+}
+
+.header-text .highlight {
+  color: #2C424F;
+  display: inline;
+}
+
+.header .logo {
   text-align: center;
 }
 
 .header img {
-  width: 50%
+  width: 80%;
+}
+
+@media (max-width: 659px) {
+  .header-text {
+    text-align: center;
+  }
 }
 
 /* Job */
