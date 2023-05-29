@@ -15,7 +15,7 @@ function HomeHeader() {
         </div>
       </Grid>
       <Grid item className="logo">
-        <img src="logo.png" alt="이로바 로고"></img>
+        <img src="logo.png" alt="이로바 로고" width="252px" height="107px"></img>
       </Grid>
     </Grid>
   )
