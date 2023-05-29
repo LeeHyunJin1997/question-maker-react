@@ -20,11 +20,7 @@
   text-align: center;
 }
 
-.header img {
-  width: 80%;
-}
-
-@media (max-width: 659px) {
+@media (max-width: 580px) {
   .header-text {
     text-align: center;
   }
