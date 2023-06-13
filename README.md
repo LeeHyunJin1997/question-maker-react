@@ -30,9 +30,9 @@ https://iroba.me
 
 ## Architecture
 
-[아키텍처 이미지]
+![image](https://github.com/LeeHyunJin1997/question-maker-react/assets/93634934/93eb05b4-6c35-4bb2-b287-e9b349f00a86)
 
-### Stacks
+### Skills
 
 <br>
 
