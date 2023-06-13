@@ -30,7 +30,7 @@ https://iroba.me
 
 ## Architecture
 
-<img src="https://github.com/LeeHyunJin1997/question-maker-react/assets/93634934/b572e95c-b3f1-4f3f-8ccd-cbc9502ba3bc" alt="image" style="zoom:80%;" />
+<img src="https://github.com/LeeHyunJin1997/question-maker-react/assets/93634934/a8b3c838-040c-44b9-8264-2572ee4b57d7" alt="image" style="zoom:80%;" />
 
 ### 📚 Stacks
 
