@@ -30,9 +30,23 @@ https://iroba.me
 
 ## Architecture
 
-![image](https://github.com/LeeHyunJin1997/question-maker-react/assets/93634934/93eb05b4-6c35-4bb2-b287-e9b349f00a86)
+<img src="https://github.com/LeeHyunJin1997/question-maker-react/assets/93634934/b572e95c-b3f1-4f3f-8ccd-cbc9502ba3bc" alt="image" style="zoom:80%;" />
 
-### Skills
+### 📚 Stacks
+
+- Front-end
+
+  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"><img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+
+- Back-end
+
+  <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"><img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
+
+- Deployment
+
+  <img src="https://img.shields.io/badge/%20-netlify-%2300C7B7?style=for-the-badge&logo=netlify&logoColor=white"><img src="https://img.shields.io/badge/%20-aws%20ec2-%23FF9900?style=for-the-badge&logo=amazon ec2&logoColor=white">
+
+  
 
 <br>
 
