@@ -6,13 +6,13 @@
 
 https://iroba.me
 
-
+<br>
 
 ## Description
 
 이로바는 면접을 준비하기 어려운 취업준비생, 이직자의 면접을 도와주는 웹사이트입니다. **사용자가 지원한 직무와 자기소개서를 입력하면,  ChatGPT 면접관이 질문할 수 있는 예상 질문을 던져줍니다!**
 
-
+<br>
 
 ## Background
 
@@ -26,7 +26,7 @@ https://iroba.me
 
 그래서 만들었습니다! 아직은 많이 부족하지만, 언젠가 **면접 스터디를 함께 할 친구**가 되어 면접 준비를 돕는 것을 목표로 하고 있습니다.
 
-
+<br>
 
 ## Architecture
 
@@ -34,7 +34,7 @@ https://iroba.me
 
 ### Stacks
 
-
+<br>
 
 ## Meaning
 
@@ -50,20 +50,22 @@ SEO
 
 
 
-
+<br>
 
 ## Troubleshooting
 
-
+<br>
 
 ## Maintenance
 
 TODOs(예전됭 추가사항), SEO, Feedback
 
-
+<br>
 
 ## Team
 
-
+<br>
 
 ## Getting Started
+
+<br>
