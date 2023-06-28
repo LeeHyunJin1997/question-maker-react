@@ -50,36 +50,50 @@ https://iroba.me
 
 <br>
 
-## Meaning
-
-나의 필요에 의한 개발
-
-거인의 어깨 위에서 개발하라
-
-SEO
+## History
 
 
-
-
-
-
-
-<br>
-
-## Troubleshooting
 
 <br>
 
 ## Maintenance
 
-TODOs(예전됭 추가사항), SEO, Feedback
+### Feedback
 
-<br>
+- 로고를 바꿨으면 좋겠어요.
 
-## Team
+- 처음에는 예상질문란이 안 보였다가 나타났으면 좋겠어요.
+
+- 선택할 수 있는 직종이 너무 적어요.
+
+- 추가 기능이 있었으면 좋겠어요.
+  - 블라인드 채용 시, 자기소개서 검사 기능
+- 질문에 대한 모범답안이나 면접관의 의도를 알려줬으면 좋겠어요.
+- 너무 일반적인 질문들이에요. 좀더 구체적인 질문을 해줬으면 좋겠어요.
+- 경력직의 경우, 더 난이도 있는 질문을 해줬으면 좋겠어요.
+- 질문 개수가 너무 적어요.
+- 질문의 중요도도 알고싶어요.
+- 질문에 답변을 하고, 꼬리질문도 받아보고 싶어요.
+
+
+
+### Todos
+
+- [x] 로고 변경
+- [x] SEO를 위한 메타태그 설정
+- [ ] 질문 개수 늘리기
+- [ ] 유효하지 않은 자기소개서 처리하기
+- [ ] 직종 선택을 대분류, 소분류로 나누기
+- [ ] redux 적용하기
+- [ ] 로그인 기능
+- [ ] 직업 추가 기능
 
 <br>
 
 ## Getting Started
+
+[Front-end](https://github.com/LeeHyunJin1997/question-maker-react/tree/main/question_maker)
+
+[Back-end](https://github.com/LeeHyunJin1997/question-maker-django/tree/main/question_maker)
 
 <br>
